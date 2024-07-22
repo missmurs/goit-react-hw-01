@@ -1,0 +1,35 @@
+.friendSection {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.friendContainer {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  width: 60px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 10px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 18px;
+  margin: 5px;
+}
+.friend {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
+.friend.isOnline {
+  color: green;
+}

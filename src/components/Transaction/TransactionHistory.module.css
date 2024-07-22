@@ -1,0 +1,40 @@
+.table {
+  font-family: sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 5px;
+  background-color: white;
+  border: 1px solid rgb(0, 0, 0);
+  width: 700px;
+  margin: 120px;
+}
+thead {
+  border: 1px solid rgb(0, 0, 0);
+}
+tr {
+  border: 1px solid rgb(0, 0, 0);
+}
+.tableTitle {
+  background-color: rgb(59, 57, 57);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.description {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 16px;
+  text-align: start;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(211, 211, 211);
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
